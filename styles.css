@@ -1,0 +1,87 @@
+
+body {
+	font-family: sans-serif;
+	color: gray;
+}
+
+header {
+	background: #DCF5F5;
+	text-align: center;
+	color: gray;
+	background: url(images/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header img {
+	width: 200px;
+	border: 3px solid #FFF;
+	border-radius: 50%;
+	padding: 10px;
+
+}
+
+/*check about section vs. headers*/
+#about {
+	background: #FFCA59;
+	color: gray;
+	text-align: center;
+}
+.about {
+	background: #blue;
+}
+
+.links h2 {
+	color: #FF527B;
+}
+
+ .padded {
+	padding: 50px 100px;
+}
+
+.contact {
+	text-align: center;
+	color: #FFF;
+	background: url(images/dark_embroidery.png);
+	background-repeat: bottom center;
+}
+
+.contact h2 {
+	color: #fff;
+}
+
+.contact img {
+	width: 100px;
+	margin: 10px;
+	border-radius: 50%;
+}
+
+.contact img:hover {
+	opacity: .5;
+}
+
+ul.websites {
+	padding: 0px;
+	
+}
+
+ul.websites li{
+	list-style: none;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.websites a {
+	background: #38A88F;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 24px;
+	display: block;
+	margin-right: 10px;
+}
+
+.websites a:hover {
+  background: #666;
+}
